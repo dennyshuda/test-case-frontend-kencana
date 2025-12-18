@@ -1,0 +1,51 @@
+.container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #f9fafb;
+	padding: 16px;
+}
+
+.profile {
+	text-align: center;
+	margin-bottom: 32px;
+}
+
+.title {
+	font-size: 1.8rem;
+	font-weight: 700;
+	margin-bottom: 8px;
+}
+
+.subtitle {
+	font-size: 0.95rem;
+	color: #6b7280;
+}
+
+.links {
+	width: 100%;
+	max-width: 360px;
+	display: flex;
+	flex-direction: column;
+	gap: 14px;
+}
+
+.linkButton {
+	display: block;
+	text-align: center;
+	padding: 14px;
+	border-radius: 10px;
+	background-color: #2563eb;
+	color: #ffffff;
+	font-size: 0.95rem;
+	font-weight: 500;
+	text-decoration: none;
+	transition: transform 0.15s ease, background-color 0.2s ease;
+}
+
+.linkButton:hover {
+	background-color: #1e40af;
+	transform: translateY(-2px);
+}

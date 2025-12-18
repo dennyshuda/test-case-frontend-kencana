@@ -1,0 +1,35 @@
+.container {
+	max-width: 720px;
+	margin: 40px auto;
+	padding: 0 16px;
+}
+
+.heading {
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin-bottom: 24px;
+	text-align: center;
+	color: #111827;
+}
+
+.card {
+	background-color: #ffffff;
+	border: 1px solid #e5e7eb;
+	border-radius: 10px;
+	padding: 24px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+}
+
+.card p {
+	display: flex;
+	gap: 12px;
+	margin-bottom: 12px;
+	font-size: 0.95rem;
+	color: #374151;
+}
+
+.label {
+	min-width: 90px;
+	font-weight: 600;
+	color: #111827;
+}
