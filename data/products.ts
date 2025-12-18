@@ -1,0 +1,42 @@
+export const products = [
+	{
+		id: 1,
+		name: "Laptop ASUS VivoBook 14",
+		category: "Elektronik",
+		price: 8500000,
+		stock: 12,
+		description: "Laptop ringan dengan performa handal untuk kebutuhan kerja dan kuliah.",
+	},
+	{
+		id: 2,
+		name: "Mouse Logitech M331",
+		category: "Aksesoris",
+		price: 175000,
+		stock: 30,
+		description: "Mouse wireless silent click dengan desain ergonomis.",
+	},
+	{
+		id: 3,
+		name: "Keyboard Mechanical Keychron K2",
+		category: "Aksesoris",
+		price: 1250000,
+		stock: 8,
+		description: "Keyboard mechanical wireless dengan layout compact.",
+	},
+	{
+		id: 4,
+		name: "Headset Sony WH-1000XM5",
+		category: "Audio",
+		price: 4500000,
+		stock: 5,
+		description: "Headset noise cancelling dengan kualitas audio premium.",
+	},
+	{
+		id: 5,
+		name: "Monitor LG 24 Inch IPS",
+		category: "Elektronik",
+		price: 2300000,
+		stock: 10,
+		description: "Monitor IPS Full HD dengan warna akurat dan bezel tipis.",
+	},
+];
